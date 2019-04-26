@@ -1,5 +1,5 @@
 //Import two libraries to make ReactNative components
-import React from 'react';
+import React, {Component}  from 'react';
 import { AppRegistry, View } from 'react-native';
 import Header from './src/components/header';
 import DisplayImage from './src/components/body';
