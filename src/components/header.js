@@ -13,6 +13,9 @@ const Header = () => {
                 uri: 'https://www.apple.com/v/home/ee/images/logos/apple_watch_series_4_logo_hero__fegit8v4k2uu_medium_2x.jpg' }} 
                 style={{ width: 145, height: 55 }} 
             /> 
+            <Text style = {textStyle}>
+                Can of
+            </Text>
         </View>
     );
 };
