@@ -9,12 +9,15 @@ const goTo = () => (
 );
 
 const DisplayImage = () => {
-    const { viewStyle } = styles;
+    const { textStyle,viewStyle } = styles;
 
     return (
         <View style={viewStyle}>
+            <Text style = {textStyle}>
+                More powerful, more colorful
+            </Text>
             <Image source={{ 
-                uri: 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/M/RX/MRXJ2/MRXJ2?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1551489675083' }} 
+                uri: 'https://www.apple.com/v/home/ee/images/heroes/watch-series-4/series_4__b539g9eyf22u_medium_2x.jpg' }} 
                 style={{ width: 400, height: 400 }} 
             /> 
             <Button 
@@ -28,9 +31,14 @@ const DisplayImage = () => {
 
 const styles = {
     viewStyle: {
+        backgroundColor: '#FAFAFA',
         justifyContent: 'center',
         alignItems: 'center',
     },
+    textStyle: {
+        paddingTop: 30,
+        fontSize: 20
+    }
 };
 
 //render this component
