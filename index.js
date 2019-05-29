@@ -3,13 +3,14 @@ import React, {Component}  from 'react';
 import { AppRegistry, View } from 'react-native';
 import Header from './src/components/header';
 import DisplayImage from './src/components/body';
+import AlbumList from './src/components/AlbumList';
 
 //Create components
 const App = () => {
     return (
         <View>
-            <Header />
-            <DisplayImage />
+            <Header headerText = {'Music'}/>
+            <AlbumList />
         </View>
     ); 
 };
