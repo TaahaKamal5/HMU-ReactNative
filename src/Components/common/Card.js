@@ -12,7 +12,10 @@ const Card = (props) => {
 //The styling in React Native is always done through making an object like this
 const style = {
     containerStyle: {
-        borderWidth: 1,
+        paddingTop: 100,
+        justifyContent: 'center',
+        alignItems: 'center',
+        // borderWidth: 1,
         borderRadius: 2,
         borderColor: '#ddd', 
         borderBottomWidth: 0,
@@ -27,4 +30,4 @@ const style = {
     }
 };
 
-export default Card;
+export {Card};
